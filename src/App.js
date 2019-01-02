@@ -4,6 +4,7 @@ import Carousel from './carousel';
 import About from './about';
 import Work from './work';
 import Testimonials from './testimonials';
+import Footer from './footer';
 import './App.css';
 
 class App extends Component {
@@ -24,6 +25,9 @@ class App extends Component {
 
         { /* Testimonials */ }
         <Testimonials />
+
+        { /* Footer */}
+        <Footer />
       </div>
     );
   }
