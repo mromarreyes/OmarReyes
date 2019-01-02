@@ -1,0 +1,17 @@
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+
+.fa-code {
+    color: #e54d26;
+}
+
+.fa-php {
+    color: #563d7c;
+}
+
+.fa-code, .fa-php, .fa-mobile {
+    font-size: 4em;
+    margin: 1rem;
+}

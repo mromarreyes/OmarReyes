@@ -1,0 +1,44 @@
+#testimonials {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: .2rem;
+}
+
+#testimonials hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    border:none;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin-bottom:-30px;
+    position: relative; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding-left: 0.4em; 
+}
+
+blockquote p:before { 
+    content: "\201C";
+    font-weight: bold;
+    font-size:30px;
+    color:#889c0b;
+    position: absolute; 
+    top: -0.2em;
+    left: -0.4em; 
+    font-family: 'Georgia'; 
+} 
+
+blockquote p:after { 
+    content: "\201D";
+    font-weight: bold;
+    font-size:30px;
+    color:#889c0b;
+    position: absolute; 
+    bottom: -0.6em;
+    right: 0; 
+    font-family: 'Georgia'; 
+}
