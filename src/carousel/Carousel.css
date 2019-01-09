@@ -29,3 +29,9 @@
     text-shadow: 1px 1px 10px #000;
     padding-bottom: 1rem;
 }
+
+.fa-github {
+    font-size: 4em;
+    color: #fff;
+    background-color: #24292e;
+}

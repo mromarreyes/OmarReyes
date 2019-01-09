@@ -1,17 +1,10 @@
 .jumbotron {
-  padding: 1rem;
-  border-radius: 0;
+    padding: 1rem;
+    border-radius: 0;
 }
 
-.fa-code {
-    color: #e54d26;
-}
-
-.fa-php {
-    color: #563d7c;
-}
-
-.fa-code, .fa-php, .fa-mobile {
+.fa-code, .fa-palette, .fa-mobile, .fa-graduation-cap, .fa-database, .fa-aws {
     font-size: 4em;
     margin: 1rem;
+    color: #6648b1;
 }

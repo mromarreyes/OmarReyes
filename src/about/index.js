@@ -7,26 +7,50 @@ class About extends Component {
         <section className="jumbotron jumbotron-fluid" id="about">
             <div className="row">
                 <div className="col-12 work-title text-center">
-                    <h1 className="display-4">About Me</h1>
+                    <h1 className="display-4">Hi, I'm Omar</h1>
                 </div>
                 <div className="col-12 text-center p-5">
-                    <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur lorem ac ipsum aliquam, in aliquet elit porta. Etiam leo ex, lobortis ac vulputate eu, tempus vel metus. Donec varius dui quis ante tempor, sodales tincidunt libero vehicula. Nullam eu imperdiet nisi. Ut eu velit magna. Quisque bibendum ornare ultricies. Aenean enim metus, malesuada sed volutpat et, dignissim at eros. Sed et nisl turpis. Nulla facilisi. Proin semper, metus sed fringilla accumsan, enim elit imperdiet augue, suscipit ornare ipsum purus ut lectus. Nullam tincidunt leo nec sagittis facilisis. Suspendisse gravida, lacus id luctus gravida, mauris nulla tempus felis, ut imperdiet enim nulla id neque.</p>
+                    <p className="lead">I'm a Software Developer currently working at <a href="http://petexec.net" target="_blank">PetExec</a>. 
+                    I've got more than 8 years of experience in a wide range of technologies. 
+                    I've developed application programming interfaces (API), mobile applications, and web applications.
+                    New experiences and challenges are my thing. I write code and improve my skills every day.
+                    If you have any cool projects or opportunities <a href="mailto:reyomar80@hotmail.com">get in touch!</a></p>
+                </div>
+                <div className="col-xs-12 col-sm-6 col-md-4 text-center">
+                    <i className="fas fa-graduation-cap"></i>
+                    <h3>Computer Science</h3>
+                    <p>Arizona State University Tempe, AZ</p>
+                </div>
+                <div className="col-xs-12 col-sm-6 col-md-4 text-center">
+                    <i className="far fa-palette"></i>
+                    <h3>Font-end</h3>
+                    <p>CSS3, Bootstrap, ES6, Javascript, React</p>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-4 text-center">
                     <i className="fas fa-code"></i>
-                    <h3>Javascript</h3>
-                    <p>Blah javascript</p>
+                    <h3>Back-end</h3>
+                    <p>GraphQL, NodeJS, PHP, RESTful</p>
                 </div>
+
                 <div className="col-xs-12 col-sm-6 col-md-4 text-center">
-                    <i className="fab fa-php"></i>
-                    <h3>PHP</h3>
-                    <p>Blah PHP</p>
+                    <i className="far fa-database"></i>
+                    <h3>Databases</h3>
+                    <p>MySQL, PostgreSQL</p>
                 </div>
-                <div className="col-sm-12 col-md-4 text-center">
+
+                <div className="col-xs-12 col-sm-6 col-md-4 text-center">
+                    <i className="fab fa-aws"></i>
+                    <h3>Amazon Web Services</h3>
+                    <p>API Gateway, Cognito, Lambda, S3, Serverless Framework</p>
+                </div>
+
+                <div className="col-xs-12 col-sm-6 col-md-4 text-center">
                     <i className="fal fa-mobile"></i>
-                    <h3>App Development</h3>
-                    <p>Blah apps</p>
+                    <h3>Mobile</h3>
+                    <p>Java, Swift, React Native</p>
                 </div>
+
+                
             </div>
         </section>
     );
