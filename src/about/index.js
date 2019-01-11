@@ -5,15 +5,15 @@ class About extends Component {
   render() {
     return (
         <section className="jumbotron jumbotron-fluid" id="about">
-            <div className="row">
+            <div className="row padding">
                 <div className="col-12 work-title text-center">
                     <h1 className="display-4">Hi, I'm Omar</h1>
                 </div>
                 <div className="col-12 text-center p-5">
-                    <p className="lead">I'm a Software Developer currently working at <a href="http://petexec.net" target="_blank">PetExec</a>. 
+                    <p className="lead mx-auto" style={{ width: '70%'}}>I'm a Software Developer currently working at <a href="http://petexec.net" target="_blank">PetExec</a>. 
                     I've got more than 8 years of experience in a wide range of technologies. 
                     I've developed application programming interfaces (API), mobile applications, and web applications.
-                    New experiences and challenges are my thing. I write code and improve my skills every day.
+                    I write code and improve my skills every day.
                     If you have any cool projects or opportunities <a href="mailto:reyomar80@hotmail.com">get in touch!</a></p>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-4 text-center">

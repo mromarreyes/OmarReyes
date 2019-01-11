@@ -10,3 +10,9 @@
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
+
+@media (min-width: 2100px) {
+    #project-container {
+        width: 80%;
+    }
+}
