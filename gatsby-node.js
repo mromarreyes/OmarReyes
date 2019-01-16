@@ -4,21 +4,36 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
+const { slugify } = require('./src/util/utilityFunctions');
 const path = require('path');
 
-exports.createPages = ({boundActionCreators, graphql}) => {
-    const {createPage} = boundActionCreators;
-    const postTemplate = path.resolve('src/templates/post.js');  
-    
+exports.onCreateNode = ({ node, actions }) => {
+    const { createNodeField } = actions;
+
+    if (node.internal.type === 'MarkdownRemark') {
+        const slugFromTitle = `/blog/${slugify(node.frontmatter.title)}`;
+
+        createNodeField({
+            node,
+            name: 'slug',
+            value: slugFromTitle
+        })
+    }
+}
+
+exports.createPages = ({ actions, graphql }) => {
+    const { createPage } = actions;
+    const singlePostTemplate = path.resolve('src/templates/single-post.js');  
+
     return graphql(`{
         allMarkdownRemark {
             edges {
                 node {
-                    html
-                    id
                     frontmatter {
-                        path
-                        title
+                        author
+                    }
+                    fields {
+                        slug
                     }
                 }
             }
@@ -28,10 +43,16 @@ exports.createPages = ({boundActionCreators, graphql}) => {
             return Promise.reject(res.errors);
         }
 
-        res.data.allMarkdownRemark.edges.forEach(({node}) => {
+        const posts = res.data.allMarkdownRemark.edges;
+
+        posts.forEach(({node}) => {
             createPage({
-            path: node.frontmatter.path,
-            component: postTemplate
+                path: node.fields.slug,
+                component: singlePostTemplate,
+                context: {
+                    // Passing slug for template to use to get post
+                    slug: node.fields.slug
+                }
             })
         })
     })
