@@ -10,7 +10,7 @@ class About extends Component {
                     <h1 className="display-4">Hi, I'm Omar</h1>
                 </div>
                 <div className="col-12 text-center p-5">
-                    <p className="lead mx-auto" style={{ width: '70%'}}>I'm a Software Developer currently working at <a href="http://petexec.net" target="_blank">PetExec</a>. 
+                    <p className="lead mx-auto" style={{ width: '70%'}}>I'm a Software Developer currently working at <a href="http://petexec.net" target="_blank" rel="noopener noreferrer">PetExec</a>. 
                     I've got more than 8 years of experience in a wide range of technologies. 
                     I've developed application programming interfaces (API), mobile applications, and web applications.
                     I write code and improve my skills every day.

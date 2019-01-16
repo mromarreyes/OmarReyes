@@ -1,8 +1,8 @@
-#root, .App, .carousel, .item, .active {
+#___gatsby, .App, .carousel, .item, .active {
     height:100%;
 }
   
-  .carousel-inner {
+#___gatsby .carousel-inner {
     height:100%;
 }
   

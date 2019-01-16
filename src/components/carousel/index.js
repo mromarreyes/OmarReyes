@@ -11,10 +11,10 @@ class Carousel extends Component {
                     <div className="carousel-caption">
                         <h1 className="display-2">Omar Reyes</h1>
                         <h3>Software Developer</h3>
-                        <div class="col-12">
+                        <div className="col-12">
                             <a href="https://github.com/mromarreyes" rel='noopener noreferrer' target="_blank"><i className="fab fa-github mb-3 rounded"></i></a>
                         </div>
-                        <div class="col-12">
+                        <div className="col-12">
                             <a href="mailto:reyomar80@hotmail.com" className="btn btn-primary btn-lg">Get in touch</a>
                         </div>
                     </div>
