@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Omar Reyes Software Developer`,
+    title: `Omar Reyes, Software Developer from Tempe, Arizona`,
     description: `I'm a Software Developer currently working at PetExec. I've got more than 8 years of experience in a wide range of technologies. I've developed application programming interfaces (API), mobile applications, and web applications. If you have any cool projects or opportunities get in touch!`,
     author: `Omar Reyes`,
     siteUrl: `https://ReyesOmar.com`,

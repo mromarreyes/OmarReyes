@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
                         <Link className="nav-link navbar-brand mx-0 d-none d-md-inline" to="/"><img width="50" height="50" src={logo} alt="logo" /></Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/blog">Blog</Link>
+                        <a className="nav-link" href="https://DevelopAndGo.com" target="_blank" rel="noopener noreferrer">Blog</a>
                     </li>
                 </ul>
             </div>
